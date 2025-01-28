@@ -6,12 +6,5 @@
       "version": "latest"
     }
   },
-  "postStartCommand": "python /workspaces/Rjsos634/MHDDoS/bot.py",
-  "customizations": {
-    "vscode": {
-      "settings": {
-        "python.pythonPath": "/home/codespace/.python/current/bin/python"
-      }
-    }
-  }
+  "postStartCommand": "python3 /workspaces/Rjsos634/MHDDoS/bot.py",
 }
