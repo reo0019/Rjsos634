@@ -1,0 +1,17 @@
+{
+  "name": "turbo-invention-4jgqx5w7jq74h75v5",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
+  "postStartCommand": "python3 /workspaces/Rjsos634/MHDDoS/bot.py",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.pythonPath": "/home/codespace/.python/current/bin/python"
+      }
+    }
+  }
+}
