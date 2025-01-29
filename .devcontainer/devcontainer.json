@@ -6,5 +6,11 @@
       "version": "latest"
     }
   },
-  "postStartCommand": "python3 /workspaces/Rjsos634/MHDDoS/bot.py"
+  "postStartCommand": "echo 'Post-start command is working'",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  }
 }
