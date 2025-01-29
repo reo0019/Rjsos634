@@ -6,7 +6,7 @@
       "version": "latest"
     }
   },
-  "postStartCommand": "echo 'Post-start command is working'",
+  "postStartCommand": "echo 'Post-start command executed' > /workspaces/poststart.log"
   "customizations": {
     "vscode": {
       "settings": {},
