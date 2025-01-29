@@ -6,11 +6,16 @@
       "version": "latest"
     }
   },
-  "postStartCommand": "echo 'Post-start command executed' > /workspaces/poststart.log"
+  "postCreateCommand": "apt-get update && apt-get install -y python3 python3-pip && chmod +x /workspaces/your-script.py",
+  "postStartCommand": "echo 'Post-start command executed' > /workspaces/poststart.log && python3 /workspaces/your-script.py",
   "customizations": {
     "vscode": {
-      "settings": {},
-      "extensions": []
+      "settings": {
+        "python.pythonPath": "/usr/bin/python3"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
     }
   }
 }
